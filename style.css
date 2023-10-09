@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+   background-image: url('https://th.bing.com/th/id/R.ddb0ca24f5e2c65959c2e5c070300ff4?rik=Sa8Ho6a%2bpgZfcQ&riu=http%3a%2f%2fblog.espol.edu.ec%2fsaludbienestar%2ffiles%2f2021%2f08%2fUniversidades-medicina.jpg&ehk=uJJjAt%2b8FPD7lk%2b1pgPNd9mj8dzlEE%2fJH1nwRULXHwM%3d&risl=&pid=ImgRaw&r=0');
+    background-color: aqua;
+}
+h1 {
+    color: blue;
+    margin: 0%;
+    font-size: 400%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);;
+    background-color:lightblue;
+    
+}
+
+
+h3{
+    background-color:lightseagreen;
+    font-size: 200%;
+    margin: 5;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px 500px 10px 500px ;
+    padding: 10px 10px 10px 2px;
+    border-radius: 60px;
+    list-style: none;
+   color: rgb(206, 217, 217);
+
+   
+}
+.registro-medico {
+   margin-block: 30px;
+   color: black;
+    text-align: center;
+    font-size: 130%;
+
+}
+ul{
+    border-width: 5px;
+    border-color: blue;
+    border-style:inset;
+
+    width: 50%;
+    font-size:160%;
+    box-sizing: border-box;
+    margin: 80px 50px 50px 300px ;
+    padding: 100px 1px 100px 240px;
+    border-radius: 60px;
+    list-style: none;
+}
+.boton-volver{ 
+  
+    margin-block: 30px;
+    ;
+    text-align: center;
+}
+footer{
+    text-align:start;
+    box-shadow: 4px 2px 5px rgba(30, 21, 21, 0.2);;
+    background-color: aquamarine;
+    
+}
+input[type="submit"],
+input[type="button"] {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 9px 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 5px solid lightseagreen;
+    background-color: lightseagreen;
+
+
+}
+
+td {
+    color: #fff;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 120%;
+}

@@ -10,34 +10,34 @@
 <body>
     <h1>Clinica del occidente</h1>
     <h3>Registro Medico</h3>
-    <form class="registro-medico">
+    <form id="registro-medicos-form" class="registro-medico">
         <label for="nombre">Nombres</label><br>
-        <input type="text" placeholder="ingresa tu nombre"><br>
+        <input type="text" id="nombres" placeholder="ingresa tu nombre" required><br>
         <label for="apellido">Apellidos</label><br>
-        <input type="text" placeholder="ingresa tus apellidos"><br>
+        <input type="text" id="apellidos" placeholder="ingresa tus apellidos"><br>
         <label for="cedula">Numero de cedula</label><br>
-        <input type="number" placeholder="ingresa # cedula"><br>
-        <label for="nu-consultorio">Numero de consultorio</label><br>
-        <input type="number" placeholder="ingresa # consultorio"><br>
+        <input type="number" id="cedula" placeholder="ingresa # cedula"><br>
+        <label for="consultorio">Numero de consultorio</label><br>
+        <input type="number" id="consultorio" placeholder="ingresa # consultorio"><br>
         <label for="telefono">Telefono</label><br>
-        <input type="number" placeholder="ingresa # de telefono"><br>
+        <input type="number" id="telefono" placeholder="ingresa # de telefono"><br>
         <label for="correo">Correo</label><br>
-        <input type="email" placeholder="ingresa tu correo"><br>
+        <input type="email" id="correo" placeholder="ingresa tu correo"><br>
         <label for="especialidad">Especialidad</label><br>
-        <select name="especialidad" id="especialidad">
+        <select name="especialidad" id="especialidad" required>
             <option >selecciona una especialidad</optio>
-            <option value=""> Medicina general</option>
-            <option value="">Cardiologia </option>
-            <option value="">Medicina interna </option>
-            <option>Dermatologia</option>
-            <option>Rehabilitacion fisica</option>
-            <option>Psicologia</option>
-            <option>Odontologia</option>
-            <option>Radiologia</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Cardiología">Cardiología</option>
+                <option value="Medicina interna">Medicina interna</option>
+                <option value="Dermatología">Dermatología</option>
+                <option value="Rehabilitación física">Rehabilitación física</option>
+                <option value="Psicología">Psicología</option>
+                <option value="Odontología">Odontología</option>
+                <option value="Radiología">Radiología</option>
         </select><br><br>
-        <input type="submit"><br><br>
+        <input type="submit" value="Enviar"><br><br>
     </form>
-    <div class="registro-medico">
+    <div class="boton-volver">
     <a href="index.html">
     <input type="button" value="volver"  ></a><br><br>
     </div>
@@ -45,6 +45,7 @@
             <h2>Realizado por:</h2><br>
             <p><b>Oscar Martinez</b></p>
         </footer>
+        <script src="app.js"></script>
     
 </body>
 </html>

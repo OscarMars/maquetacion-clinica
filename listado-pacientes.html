@@ -11,6 +11,7 @@
     <h1>Clinica del occidente</h1>
     <h3>Listado de pacientes</h3>
     <table border="solid">
+        <thead>
         <tr>
             <th>Nombres</th>
             <th>Apellidos</th>
@@ -20,6 +21,8 @@
             <th>Especialidad</th>
             <th>Medico</th>
         </tr>
+    </thead>
+    <tbody id="cuerpo-tabla-pacientes">
         <tr>
             <td>jose</td>
             <td>Lobo</td>
@@ -29,10 +32,12 @@
             <td>Medicina general</td>
             <td>Liliana</td>
         </tr>
+    </tbody>
     </table><br><br>
     
-    <input type="submit"><br><br>
+   
     <div class="boton-volver">
+        <input type="submit" value="Enviar"><br><br>
     <a href="index.html">
         <input type="button" value="volver" ></a>
     </div>
@@ -40,6 +45,7 @@
             <h2>Realizado por:</h2><br>
             <p><b>Oscar Martinez</b></p>
         </footer>
-    
+
+    <script src="app.js"></script>
 </body>
 </html>
